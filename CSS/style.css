@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Thambi");
+body {
+  color: #000;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.text-container {
+  background-color: #000;
+  height: 100vh;
+  width: 100vw;
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.text-container span {
+  margin-top: 50vh;
+  margin-left: 1vw;
+}
+.text-container span:nth-child(8) {
+  margin-right: 2vw;
+}
+
+span:nth-child(1) {
+  animation: starts 0.75s forwards;
+  animation-delay: 0.75s;
+}
+
+span:nth-child(2) {
+  animation: starts 0.75s forwards;
+  animation-delay: 1.5s;
+}
+
+span:nth-child(3) {
+  animation: starts 0.75s forwards;
+  animation-delay: 2.25s;
+}
+
+span:nth-child(4) {
+  animation: starts 0.75s forwards;
+  animation-delay: 3s;
+}
+
+span:nth-child(5) {
+  animation: starts 0.75s forwards;
+  animation-delay: 3.75s;
+}
+
+span:nth-child(6) {
+  animation: starts 0.75s forwards;
+  animation-delay: 4.5s;
+}
+
+span:nth-child(7) {
+  animation: starts 0.75s forwards;
+  animation-delay: 5.25s;
+}
+
+span:nth-child(8) {
+  animation: starts 0.75s forwards;
+  animation-delay: 6s;
+}
+
+span:nth-child(9) {
+  animation: starts 0.75s forwards;
+  animation-delay: 6.75s;
+}
+
+span:nth-child(10) {
+  animation: starts 0.75s forwards;
+  animation-delay: 7.5s;
+}
+
+span:nth-child(11) {
+  animation: starts 0.75s forwards;
+  animation-delay: 8.25s;
+}
+
+span:nth-child(12) {
+  animation: starts 0.75s forwards;
+  animation-delay: 9s;
+}
+
+@keyframes starts {
+  0%, 100% {
+    color: white;
+    text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
+  }
+  50% {
+    color: black;
+    text-shadow: none;
+  }
+}
+.hidden {
+  display: none;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+}
+
+.card .profile-details {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+  padding: 15px;
+}
+
+.card .head {
+  font-style: normal;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.swiper-navBtn {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 18px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+
+@media (max-width: 575.98px) {
+  #l-screen {
+    display: none;
+  }
+  .swiper-navBtn {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) and (min-width: 576px) {
+  #l-screen {
+    display: none;
+  }
+  .swiper-navBtn {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) and (min-width: 768px) {
+  #s-screen {
+    display: none;
+  }
+}
+@media (max-width: 1199.98px) and (min-width: 992px) {
+  #s-screen {
+    display: none;
+  }
+}
+@media (max-width: 1399.98px) and (min-width: 1200px) {
+  #s-screen {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
