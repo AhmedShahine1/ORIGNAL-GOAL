@@ -66,13 +66,16 @@ body {
   padding: 15px;
 }
 .card .head{
-  font-style: normal;
+  align-items: center;
+  padding: 15px 0 0 15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1em;
   font-weight: bold;
 }
 .profile-details .name {
-  font-size: 15px;
-  font-weight: 500;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  font-size: 1em;
 }
 .swiper-navBtn {
   color: #000;
@@ -89,11 +92,18 @@ body {
   background-color: #000;
 }
 
+nav{  
+  background: linear-gradient(to right,#2B3990,#00A79D);
+  a{
+    color: white;
+  }
+}
+.Learn-more{
+  color: blue;
+  text-decoration: none;
+}
 @media (max-width: 575.98px)  {
   #l-screen{
-    display: none;
-  }
-  .swiper-navBtn {
     display: none;
   }
 }
@@ -101,14 +111,14 @@ body {
 @media (max-width: 767.98px) and (min-width:576px) {
   #l-screen{
     display: none;
-  }
-  .swiper-navBtn {
-    display: none;
+    a{
+      color: white;
+    }
   }
 }
 
 @media (max-width: 991.98px) and (min-width:768px) {
-  #s-screen{
+  #l-screen{
     display: none;
   }
 }
