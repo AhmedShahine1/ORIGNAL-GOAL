@@ -1,14 +1,14 @@
 
-// var divToToggle = document.querySelector('.page');
+var divToToggle = document.querySelector('.page');
 
-// // Hide the div initially
-// divToToggle.classList.add('hidden');
+// Hide the div initially
+divToToggle.classList.add('hidden');
 
-// setTimeout(function() {
-//   divToToggle.classList.remove('hidden');
-//   var divToDelete = document.querySelector('.text-container');
-//   divToDelete.remove();
-// }, 11000);
+setTimeout(function() {
+  divToToggle.classList.remove('hidden');
+  var divToDelete = document.querySelector('.text-container');
+  divToDelete.remove();
+}, 11000);
 
 var swiper = new Swiper(".slide-container", {
     slidesPerView: 4,
