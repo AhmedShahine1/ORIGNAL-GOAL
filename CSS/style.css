@@ -227,7 +227,7 @@ nav a {
     width: 20vw;
   }
 }
-@media (max-width: 1399.98px) and (min-width: 1200px) {
+@media (min-width: 1200px) {
   #s-screen {
     display: none;
   }
